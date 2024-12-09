@@ -1,9 +1,9 @@
-import day2.day2 as day2
+import day3.day3 as currentDay
 
 
 def main():
     #file1 = open("inputTest.txt")
-    file1 = open("day2/input.txt")
+    file1 = open("day3/input3.txt")
     # Reading from file
     inputList = []
     line = file1.readline()
@@ -11,8 +11,8 @@ def main():
         inputList.append(line)
         line = file1.readline()
     file1.close()
-    #day2.main1(inputList)
-    day2.main2(inputList)
+    #currentDay.main1(inputList)
+    currentDay.main2(inputList)
 
 
 if __name__ == '__main__':
